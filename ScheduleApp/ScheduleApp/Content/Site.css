@@ -1,0 +1,74 @@
+﻿.Day {
+    display: block;
+    border: 1px solid;
+    height: 300px;
+    width: 210px;
+    position: absolute;
+}
+
+.AllAvailableDay {
+    border-color: green;
+    border-width:2px;
+}
+
+.DayName {
+    display: block;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.DayDate {
+    display: block;
+    height: 25px;
+}
+
+.Availability {
+    position: absolute;
+    left: 1490px;
+    width:440px;
+    border-left: 5px solid;
+    height: 100%;
+}
+
+.AvailabilityDropdowns {
+    width: 420px;
+    margin: auto;
+}
+
+.AvailabilityButton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.CancelAvailability {
+    height: 14px;
+    width: 14px;
+    padding: 2px;
+    margin: auto;
+    top: 2px;
+    position: relative;
+}
+
+.Title {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.UserAvailability {
+    padding: 2px;
+    display: block;
+    width: 100%;
+    height: 24px;
+}
+
+.Comments {
+    resize: none;
+    margin-left: 10px;
+    width:400px;
+}
+
+.ErrorText {
+    color:mediumvioletred;
+}
