@@ -24,15 +24,15 @@
 
 .Availability {
     position: absolute;
-    left: 1490px;
+    left: 1475px;
     width:440px;
     border-left: 5px solid;
     height: 100%;
 }
 
 .AvailabilityDropdowns {
-    width: 420px;
-    margin: auto;
+    width: 440px;
+    padding-left: 4px;
 }
 
 .AvailabilityButton {
